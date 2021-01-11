@@ -1,36 +1,30 @@
-# GRD-BB-Child
+# Beaver Builder Child Theme
 
-A custom child theme for Beaver Builder with modern tooling.
+This child theme uses [Beaver Builder](https://www.wpbeaverbuilder.com/) and [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts) for builds.
 
 ## Requirements
 
--   [Node](https://nodejs.org/) \*LTS recommended
+-   [Node](https://nodejs.org/)
 -   [Composer](https://getcomposer.org/)
 
 ## Install
 
 ```bash
-npm i && composer install
+cd grd-bb-child && yarn
 ```
 
 ## Development
 
-To activate HMR, add your Local development URL to `package.json` around line 73 (swapping out gregrickaby.test). Then, run:
+Watch for changes and compile:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-To lint all files via CLI:
+Build for production:
 
 ```bash
-npm run lint
-```
-
-To build production ready assets:
-
-```bash
-npm run build
+yarn build
 ```
 
 ## Coding Standards
