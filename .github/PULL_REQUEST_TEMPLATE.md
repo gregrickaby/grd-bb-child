@@ -1,20 +1,17 @@
-Closes #
+Closes [Link to Github ticket]
 
-## Link
-Please to your feature on a development server.
+### Link
+Link to your feature.
 
-## Screenshots
-Please include a screenshot(s) of your feature.
+### Description
+What does your feature do? Give some context...
 
-## Description
-Please describe your feature.
+### Screenshot
+If possible, add some screenshots of your feature.
 
-## Steps to Verify
-Please include steps for the reviwer to take to verify your feature.
+### Verification
+How will a stakeholder test this?
 
-1.
-2.
-3.
-
-## Other
-Anything else?
+  1.
+  2.
+  3.
