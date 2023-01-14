@@ -1,0 +1,13 @@
+$desktop: 1200px;
+$tablet-landscape: 768px;
+$tablet-portrait: 600px;
+$phone: 300px;
+$color-primary: #111;
+$color-secondary: #fff;
+$color-tertiary: #e5e5e5;
+$color-primary-gradient: linear-gradient(
+	45deg,
+	$color-primary,
+	$color-secondary
+);
+$color-button-hover: $color-tertiary;

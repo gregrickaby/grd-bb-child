@@ -1,0 +1,40 @@
+{
+  "name": "@gregrickaby/bb-child",
+  "version": "2.0.0",
+  "description": "A child theme for Beaver Builder by Greg Rickaby.",
+  "author": "Greg Rickaby <greg@gregrickaby.com>",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress, child theme, beaver builder"
+  ],
+  "homepage": "https://github.com/gregrickaby/grd-bb-child/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregrickaby/grd-bb-child"
+  },
+  "bugs": {
+    "url": "https://github.com/gregrickaby/grd-bb-child/issues"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "@wordpress/scripts": "^25.1.0"
+  },
+  "devDependencies": {
+    "@wordpress/prettier-config": "^2.7.0",
+    "stylelint-config-prettier": "^9.0.4"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "dev": "wp-scripts start",
+    "format": "wp-scripts format && composer run format",
+    "lint": "wp-scripts lint-style && wp-scripts lint-js && composer run lint",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "start": "wp-scripts start",
+    "postinstall": "composer install && wp-scripts build"
+  }
+}
