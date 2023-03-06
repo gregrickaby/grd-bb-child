@@ -21,7 +21,7 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "@wordpress/scripts": "^25.5.0"
+    "@wordpress/scripts": "^25.5.1"
   },
   "devDependencies": {
     "@wordpress/prettier-config": "^2.11.0",
