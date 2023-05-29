@@ -21,10 +21,10 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "@wordpress/scripts": "^26.4.0"
+    "@wordpress/scripts": "^26.5.0"
   },
   "devDependencies": {
-    "@wordpress/prettier-config": "^2.16.0",
+    "@wordpress/prettier-config": "^2.17.0",
     "stylelint-config-prettier": "^9.0.5"
   },
   "scripts": {
