@@ -24,7 +24,7 @@
     "@wordpress/scripts": "^30.22.0"
   },
   "devDependencies": {
-    "@wordpress/prettier-config": "^2.24.0",
+    "@wordpress/prettier-config": "^4.29.0",
     "stylelint-config-prettier": "^9.0.5"
   },
   "scripts": {
